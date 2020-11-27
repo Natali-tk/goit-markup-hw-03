@@ -188,7 +188,8 @@ header>.container .main-nav{
 .function-list,
 .participant-list{
     display: flex;
-    padding-left:0;   
+    padding-left:0; 
+    margin:0;  
 }
 
 .feature-list .item,
@@ -210,7 +211,7 @@ header>.container .main-nav{
 .participant-list .title{
     color: var(--title-text-color);  
     
-    margin-top: 30px;
+    margin-top: 0px;
     margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
@@ -224,7 +225,7 @@ header>.container .main-nav{
 }
 .participant-content {   
     
-    padding: 30px 24px;
+    padding: 30px 0;
     text-align: center;
     }
 /* Footer */
@@ -306,10 +307,11 @@ address {
    border-radius: 4px;
    padding: 6px 22px;
    min-width: 73px;
-   margin-left: 8px;
    text-align: center;
 }
-
+.button-list .item + .item{
+    margin-left: 8px;
+}
 .button-list .button-works:hover,
 .button-list .button-works:focus {
     color: var(--primary-white-color);
@@ -334,6 +336,7 @@ address {
     display: flex;
     align-items: center;
     padding-left: 0;
+    margin: 0;
 }
 .flex-container .list{
     padding-left: 0;
@@ -342,6 +345,7 @@ address {
     display: flex;
     flex-wrap: wrap;
     padding-left:0;
+    margin: 0;
 }
 .flex-element {
     width: 370px;

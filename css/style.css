@@ -30,7 +30,8 @@ body{
 }
 ul{
     list-style: none;
-
+    padding: 0;
+    margin: 0;
 }
 h1, 
 h2, 
@@ -49,18 +50,19 @@ a{
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    
-    
-    
+     
 }
-header>.container .main-nav{
+
+.container .main-nav{
     display:flex;
     align-items: center;
     justify-content: space-between;
+     
 }
-.page-header{
+header{
     border-bottom: 1px solid #ECECEC;
 }
+
 /* Logo */
 .logo,
 .logo-footer{
@@ -71,6 +73,7 @@ header>.container .main-nav{
 }
 .logo{
     color: var(--logo-color);  
+    margin-right: 90px;
 }
 .logo-start{
     color: var(--accent-btn-color);
@@ -92,7 +95,7 @@ header>.container .main-nav{
 }
 .site-nav{
     display:flex;
-    margin-left: 93px;
+
 }
 .contact-nav{
     display:flex;
@@ -188,8 +191,8 @@ header>.container .main-nav{
 .function-list,
 .participant-list{
     display: flex;
-    padding-left:0; 
-    margin:0;  
+    justify-content: center; 
+    align-items: center; 
 }
 
 .feature-list .item,
@@ -225,7 +228,7 @@ header>.container .main-nav{
 }
 .participant-content {   
     
-    padding: 30px 0;
+    padding: 30px 10px;
     text-align: center;
     }
 /* Footer */
@@ -275,6 +278,7 @@ address {
     text-align: center;
     letter-spacing: 0.06em;
     border: transparent;
+    cursor: pointer;
 }
 .button:hover {
     color: var(--title-text-color);
@@ -326,8 +330,8 @@ address {
 }
 .btn-container {
     display: flex;
-    padding-top: 0;
-    padding-bottom: 50px;
+    padding: 0;
+    margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
@@ -335,20 +339,14 @@ address {
 .button-list{
     display: flex;
     align-items: center;
-    padding-left: 0;
-    margin: 0;
 }
-.flex-container .list{
-    padding-left: 0;
-}
+
 .flex-container {
     display: flex;
-    flex-wrap: wrap;
-    padding-left:0;
-    margin: 0;
+    flex-wrap: wrap;  
 }
 .flex-element {
-    width: 370px;
+    width:370px;
     margin-right: 30px;
     margin-bottom: 30px;
     border-top-left-radius: 4px;
@@ -389,5 +387,7 @@ border-bottom-left-radius: 4px;
 }
 .card-image{
     display: block;
+    max-width: 100%;
+    height: auto;
     margin: 0;
 }

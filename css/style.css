@@ -249,6 +249,12 @@ footer .container{
     display: block;
     margin-bottom: 20px;
 }
+.adress-list > .item:first-child{
+    margin-bottom: 9px;  
+}
+.adress-list > .item:nth-child(2){
+    margin-bottom: 6px;  
+}
 .footer-adress {
     color: var(--primary-white-color);
 }
@@ -256,6 +262,7 @@ footer .container{
 .footer-tel{
     color: rgba(255, 255, 255, 0.6);
 }
+
 address {
     display: block;
     font-style: normal;

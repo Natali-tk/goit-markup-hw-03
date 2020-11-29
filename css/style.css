@@ -53,11 +53,15 @@ a{
      
 }
 
-.container .main-nav{
+ .main-nav{
     display:flex;
     align-items: center;
-    justify-content: space-between;
-     
+    justify-content: space-between;   
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
 }
 header{
     border-bottom: 1px solid #ECECEC;
@@ -73,7 +77,7 @@ header{
 }
 .logo{
     color: var(--logo-color);  
-    margin-right: 90px;
+    margin-right: 93px;
 }
 .logo-start{
     color: var(--accent-btn-color);
@@ -131,8 +135,8 @@ header{
 .hero{
     background-color: var(--first-bg-color);
     text-align: center;
-    padding-top: 204px;
-    padding-bottom: 196px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     
 }
 .hero-title{
@@ -328,20 +332,18 @@ address {
     margin-left: auto;
     margin-right: auto;
 }
-.btn-container {
+
+
+.button-list{
     display: flex;
+    justify-content: center;
     padding: 0;
     margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
-    justify-content: center;
+    
 }
-.button-list{
-    display: flex;
-    align-items: center;
-}
-
-.flex-container {
+.works-container > .flex-container  {
     display: flex;
     flex-wrap: wrap;  
 }
